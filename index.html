@@ -15,6 +15,12 @@
 		ol li{
 		list-style-type: none;
 		}
+		.bg-primary {
+			background-color: #06c4ab !important; /* Ensure it overrides default styling */
+		}
+		.row {
+			justify-content: center; /* Centers horizontally */
+        }
 	</style>
 </head>
   
@@ -39,23 +45,25 @@
 	<br>
 	<br>
 	<br>
-	
-	<div class="container">
+	<br>
+
+	<div class="container" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">
 		<div class="row">
 			
 			<div class="col-sm-4">
 				<h3><a href="listener.html">Listener</a></h3>
-					<p>The Listener is a speech-to-text program. It attempts to recognize your speech and type it for you. Please keep in mind that the Listener is not spot-on. Listener is only supported on Chrome browser on Windows PC.</p>
-				</h3>
+				<p>The Listener is a speech-to-text program. It attempts to recognize your speech and type it for you. Please keep in mind that the Listener is not spot-on. Listener is only supported on Chrome browser on Windows PC.</p>
 			</div>
+			
+			<div class="col-sm-1"></div>
 			
 			<div class="col-sm-4">
 				<h3><a href="speaker.html">Speaker</a></h3>
-					<p>The Speaker is a text-to-speech program. To use the Speaker, you type in the phrase, then click on the microphone image, and it will read aloud for you.</p>
-				</h3>
+				<p>The Speaker is a text-to-speech program. To use the Speaker, you type in the phrase, then click on the microphone image, and it will read aloud for you.</p>
 			</div>
 		</div>
 	</div>
+	
 	
 </body>
 </html>
